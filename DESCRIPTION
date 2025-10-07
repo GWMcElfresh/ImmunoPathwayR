@@ -2,7 +2,8 @@ Package: ImmunoPathwayR
 Type: Package
 Title: A Reductionist, Semi-Curated Pathway Database for Immune Gene Expression Scoring
 Version: 0.1.0
-Authors@R: person("Author", "Name", email = "author@example.com", role = c("aut", "cre"))
+Author: GWMcElfresh
+Maintainer: GWMcElfresh <7402210+GWMcElfresh@users.noreply.github.com>
 Description: Provides curated, bottom-up immune pathways and functions to score gene 
     expression data using GSVA and ssGSEA methods. The pathways are designed to be 
     non-redundant and clearly annotated with specific genes for each biological process.
