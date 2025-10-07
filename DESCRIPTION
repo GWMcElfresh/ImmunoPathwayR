@@ -1,0 +1,22 @@
+Package: ImmunoPathwayR
+Type: Package
+Title: A Reductionist, Semi-Curated Pathway Database for Immune Gene Expression Scoring
+Version: 0.1.0
+Author: GWMcElfresh
+Maintainer: GWMcElfresh <7402210+GWMcElfresh@users.noreply.github.com>
+Description: Provides curated, bottom-up immune pathways and functions to score gene 
+    expression data using GSVA and ssGSEA methods. The pathways are designed to be 
+    non-redundant and clearly annotated with specific genes for each biological process.
+    Scoring functions work directly with Seurat objects.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 3.5.0)
+Imports:
+    GSVA,
+    Seurat,
+    methods
+Suggests:
+    testthat
+RoxygenNote: 7.1.1
